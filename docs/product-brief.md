@@ -51,7 +51,15 @@ The application will use:
 
 The first working version of ShiftMate will include five essential features.
 
-## Combined Schedule
+### 2. School Event Management
+- Add, edit, and delete school events.
+- Support three event types: exams, assignments, and study sessions.
+- Assignments have a due date and an optional due time.
+- Exams and study sessions have a date, start time, and end time.
+- Save all school events in the SQLite database.
+- Only events with start and end times are used for scheduling conflict detection.
+
+### 3. Combined Schedule
 - Display work shifts and school events in a simple weekly list, grouped by date.
 - Allow users to view their weekly schedule.
 - Clearly distinguish work activities from school activities.
