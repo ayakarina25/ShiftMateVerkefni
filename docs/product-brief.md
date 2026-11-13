@@ -51,6 +51,11 @@ The application will use:
 
 The first working version of ShiftMate will include five essential features.
 
+### 1. Work Shift Management
+- Add new shifts.
+- Edit or delete existing shifts.
+- Save shift dates and start/end times.
+
 ### 2. School Event Management
 - Add, edit, and delete school events.
 - Support three event types: exams, assignments, and study sessions.
@@ -63,21 +68,6 @@ The first working version of ShiftMate will include five essential features.
 - Display work shifts and school events in a simple weekly list, grouped by date.
 - Allow users to view their weekly schedule.
 - Clearly distinguish work activities from school activities.
-
-### 1. Work Shift Management
-- Add new shifts.
-- Edit or delete existing shifts.
-- Save shift dates and start/end times.
-
-### 2. School Event Management
-- Add exams, assignments, and study sessions.
-- Edit or delete school events.
-- Save event dates and relevant times.
-
-### 3. Combined Schedule
-- Display upcoming work shifts and school events together.
-- Allow users to view their weekly schedule.
-- Distinguish work activities from school activities.
 
 ### 4. Working Hours and Earnings
 - Allow users to enter a basic hourly wage.
@@ -143,3 +133,18 @@ The first version will be a local, single-user web application.
 4. **Invalid data:** Incorrect or missing information must not cause the application to crash.
 5. **Project complexity:** Too many features could make the project difficult to finish.
 
+## Agent Feedback
+
+### Suggestion I Accepted
+
+The Agent suggested starting with a simple weekly schedule instead of building a full interactive calendar immediately.
+
+I accepted this suggestion because it makes the project easier to develop and test. I can add a more advanced calendar later after the main features are working.
+
+### Suggestion I Rejected
+
+The Agent suggested treating assignments as all-day events unless a specific time is provided.
+
+### Why I Rejected It
+
+I rejected this suggestion because assignments usually have deadlines rather than fixed schedules. I prefer to display assignments with their due dates and use specific start and end times for exams and study sessions. This will also make conflict detection more accurate.

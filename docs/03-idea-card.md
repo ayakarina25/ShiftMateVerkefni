@@ -168,19 +168,3 @@ I believe the project is interesting, useful, and challenging enough for our fin
 ### Project Statement
 
 I am building a web application for students who work part-time that helps them manage their work shifts and school responsibilities by combining schedules, calculating estimated earnings, and detecting scheduling conflicts.
-
-## Agent Feedback
-
-### Suggestion I Accepted
-
-The Agent suggested starting with a simple weekly schedule instead of building a full interactive calendar immediately.
-
-I accepted this suggestion because it makes the project easier to develop and test. I can add a more advanced calendar later after the main features are working.
-
-### Suggestion I Rejected
-
-The Agent suggested treating assignments as all-day events unless a specific time is provided.
-
-### Why I Rejected It
-
-I rejected this suggestion because assignments usually have deadlines rather than fixed schedules. I prefer to display assignments with their due dates and use specific start and end times for exams and study sessions. This will also make conflict detection more accurate.
