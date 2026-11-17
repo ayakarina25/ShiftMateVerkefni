@@ -66,7 +66,7 @@ The student can edit durations, mark sessions completed or skipped, and manually
 
 The total duration of **Planned and Completed** sessions cannot exceed that day's limit. Skipped sessions do not count toward the active total.
 
-A session skipped yesterday appears in a simple dashboard reminder today, but ShiftMate does **not** add extra study hours automatically.
+A session skipped yesterday appears in a small reminder section on the Weekly Schedule page today, but ShiftMate does not automatically add extra study hours.
 
 ### FR-05 – Rule-Based Study Recommendations
 
@@ -332,7 +332,7 @@ These checks can be manual tests or automated tests during implementation.
 - **Invalid Data:** Attempt to save a negative wage, empty subject name, equal shift times, or study sessions over the daily limit. Verify no invalid record is saved.
 - **Overnight Shift:** Save Monday 22:00–Tuesday 02:00 and verify a Tuesday 01:00–02:00 class conflicts, while a Tuesday 02:00–03:00 class does not.
 - **Study Planner:** Verify the 90/30 and 60/60 examples from Section 6, including 15-minute increments and the daily cap.
-- **Skipped Sessions:** Mark a session skipped, open the dashboard the following day, and verify a reminder appears without modifying that day's planned hours.
+- **Skipped Sessions:** Mark a session as skipped, open the Weekly Schedule page the following day, and verify that a reminder appears in the reminder section without modifying that day's planned study hours.
 - **Database Error:** Simulate a failed save and verify the user sees an error, not a success message.
 
 ## 11. Open Questions
@@ -341,7 +341,7 @@ These are optional design decisions, not blockers for the MVP.
 
 1. Should the student be able to save a **default daily study limit**, rather than entering it separately for each day?
 2. Would a preferred study window (for example, 15:00–21:00) be useful as a future enhancement? For the MVP, the student sets durations and any start times **manually**.
-3. Should the skipped-session dashboard reminder include a quick **Reschedule** button, or only a link to the session?
+3. Should the skipped-session reminder on the Weekly Schedule page include a quick **Reschedule** button, or only a link to the session?
 
 ## 12. Decisions from Copilot Agent Review
 
@@ -359,9 +359,9 @@ Keep a date-grouped weekly list instead of a full calendar.
 
 **Kept in Scope:**
 
-Completing, skipping, and manually rescheduling study sessions, plus a simple dashboard reminder.
+Completing, skipping, and manually rescheduling study sessions, plus a simple reminder section on the Weekly Schedule page.
 
-These are important to ShiftMate's flexibility and do not need advanced automation.
+These features are important to ShiftMate's flexibility and do not require advanced automation.
 
 **Deferred:**
 
